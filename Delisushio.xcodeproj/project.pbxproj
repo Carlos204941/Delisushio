@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A30E81F427C90B1A00749F03 /* DelisushioApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E81F327C90B1A00749F03 /* DelisushioApp.swift */; };
+		A30E81F627C90B1A00749F03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E81F527C90B1A00749F03 /* ContentView.swift */; };
+		A30E81F827C90B1B00749F03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30E81F727C90B1B00749F03 /* Assets.xcassets */; };
+		A30E81FB27C90B1B00749F03 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A30E81FA27C90B1B00749F03 /* Preview Assets.xcassets */; };
+		A30E820527C90B1C00749F03 /* DelisushioTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E820427C90B1C00749F03 /* DelisushioTests.swift */; };
+		A30E820F27C90B1C00749F03 /* DelisushioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E820E27C90B1C00749F03 /* DelisushioUITests.swift */; };
+		A30E821127C90B1C00749F03 /* DelisushioUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A30E821027C90B1C00749F03 /* DelisushioUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A30E820127C90B1C00749F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30E81E827C90B1A00749F03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30E81EF27C90B1A00749F03;
+			remoteInfo = Delisushio;
+		};
+		A30E820B27C90B1C00749F03 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A30E81E827C90B1A00749F03 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A30E81EF27C90B1A00749F03;
+			remoteInfo = Delisushio;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A30E81F027C90B1A00749F03 /* Delisushio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delisushio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30E81F327C90B1A00749F03 /* DelisushioApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelisushioApp.swift; sourceTree = "<group>"; };
+		A30E81F527C90B1A00749F03 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A30E81F727C90B1B00749F03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A30E81FA27C90B1B00749F03 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A30E820027C90B1C00749F03 /* DelisushioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelisushioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30E820427C90B1C00749F03 /* DelisushioTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelisushioTests.swift; sourceTree = "<group>"; };
+		A30E820A27C90B1C00749F03 /* DelisushioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DelisushioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A30E820E27C90B1C00749F03 /* DelisushioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelisushioUITests.swift; sourceTree = "<group>"; };
+		A30E821027C90B1C00749F03 /* DelisushioUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DelisushioUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A30E81ED27C90B1A00749F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E81FD27C90B1C00749F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E820727C90B1C00749F03 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A30E81E727C90B1A00749F03 = {
+			isa = PBXGroup;
+			children = (
+				A30E81F227C90B1A00749F03 /* Delisushio */,
+				A30E820327C90B1C00749F03 /* DelisushioTests */,
+				A30E820D27C90B1C00749F03 /* DelisushioUITests */,
+				A30E81F127C90B1A00749F03 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A30E81F127C90B1A00749F03 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A30E81F027C90B1A00749F03 /* Delisushio.app */,
+				A30E820027C90B1C00749F03 /* DelisushioTests.xctest */,
+				A30E820A27C90B1C00749F03 /* DelisushioUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A30E81F227C90B1A00749F03 /* Delisushio */ = {
+			isa = PBXGroup;
+			children = (
+				A30E81F327C90B1A00749F03 /* DelisushioApp.swift */,
+				A30E81F527C90B1A00749F03 /* ContentView.swift */,
+				A30E81F727C90B1B00749F03 /* Assets.xcassets */,
+				A30E81F927C90B1B00749F03 /* Preview Content */,
+			);
+			path = Delisushio;
+			sourceTree = "<group>";
+		};
+		A30E81F927C90B1B00749F03 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A30E81FA27C90B1B00749F03 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A30E820327C90B1C00749F03 /* DelisushioTests */ = {
+			isa = PBXGroup;
+			children = (
+				A30E820427C90B1C00749F03 /* DelisushioTests.swift */,
+			);
+			path = DelisushioTests;
+			sourceTree = "<group>";
+		};
+		A30E820D27C90B1C00749F03 /* DelisushioUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A30E820E27C90B1C00749F03 /* DelisushioUITests.swift */,
+				A30E821027C90B1C00749F03 /* DelisushioUITestsLaunchTests.swift */,
+			);
+			path = DelisushioUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A30E81EF27C90B1A00749F03 /* Delisushio */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30E821427C90B1C00749F03 /* Build configuration list for PBXNativeTarget "Delisushio" */;
+			buildPhases = (
+				A30E81EC27C90B1A00749F03 /* Sources */,
+				A30E81ED27C90B1A00749F03 /* Frameworks */,
+				A30E81EE27C90B1A00749F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Delisushio;
+			productName = Delisushio;
+			productReference = A30E81F027C90B1A00749F03 /* Delisushio.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A30E81FF27C90B1C00749F03 /* DelisushioTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30E821727C90B1C00749F03 /* Build configuration list for PBXNativeTarget "DelisushioTests" */;
+			buildPhases = (
+				A30E81FC27C90B1C00749F03 /* Sources */,
+				A30E81FD27C90B1C00749F03 /* Frameworks */,
+				A30E81FE27C90B1C00749F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30E820227C90B1C00749F03 /* PBXTargetDependency */,
+			);
+			name = DelisushioTests;
+			productName = DelisushioTests;
+			productReference = A30E820027C90B1C00749F03 /* DelisushioTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A30E820927C90B1C00749F03 /* DelisushioUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A30E821A27C90B1C00749F03 /* Build configuration list for PBXNativeTarget "DelisushioUITests" */;
+			buildPhases = (
+				A30E820627C90B1C00749F03 /* Sources */,
+				A30E820727C90B1C00749F03 /* Frameworks */,
+				A30E820827C90B1C00749F03 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A30E820C27C90B1C00749F03 /* PBXTargetDependency */,
+			);
+			name = DelisushioUITests;
+			productName = DelisushioUITests;
+			productReference = A30E820A27C90B1C00749F03 /* DelisushioUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A30E81E827C90B1A00749F03 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					A30E81EF27C90B1A00749F03 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					A30E81FF27C90B1C00749F03 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A30E81EF27C90B1A00749F03;
+					};
+					A30E820927C90B1C00749F03 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = A30E81EF27C90B1A00749F03;
+					};
+				};
+			};
+			buildConfigurationList = A30E81EB27C90B1A00749F03 /* Build configuration list for PBXProject "Delisushio" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A30E81E727C90B1A00749F03;
+			productRefGroup = A30E81F127C90B1A00749F03 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A30E81EF27C90B1A00749F03 /* Delisushio */,
+				A30E81FF27C90B1C00749F03 /* DelisushioTests */,
+				A30E820927C90B1C00749F03 /* DelisushioUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A30E81EE27C90B1A00749F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E81FB27C90B1B00749F03 /* Preview Assets.xcassets in Resources */,
+				A30E81F827C90B1B00749F03 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E81FE27C90B1C00749F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E820827C90B1C00749F03 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A30E81EC27C90B1A00749F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E81F627C90B1A00749F03 /* ContentView.swift in Sources */,
+				A30E81F427C90B1A00749F03 /* DelisushioApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E81FC27C90B1C00749F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E820527C90B1C00749F03 /* DelisushioTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A30E820627C90B1C00749F03 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A30E820F27C90B1C00749F03 /* DelisushioUITests.swift in Sources */,
+				A30E821127C90B1C00749F03 /* DelisushioUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A30E820227C90B1C00749F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30E81EF27C90B1A00749F03 /* Delisushio */;
+			targetProxy = A30E820127C90B1C00749F03 /* PBXContainerItemProxy */;
+		};
+		A30E820C27C90B1C00749F03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A30E81EF27C90B1A00749F03 /* Delisushio */;
+			targetProxy = A30E820B27C90B1C00749F03 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A30E821227C90B1C00749F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A30E821327C90B1C00749F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A30E821527C90B1C00749F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Delisushio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarlosDeli.Delisushio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A30E821627C90B1C00749F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Delisushio/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarlosDeli.Delisushio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A30E821827C90B1C00749F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarlosDeli.DelisushioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delisushio.app/Delisushio";
+			};
+			name = Debug;
+		};
+		A30E821927C90B1C00749F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarlosDeli.DelisushioTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Delisushio.app/Delisushio";
+			};
+			name = Release;
+		};
+		A30E821B27C90B1C00749F03 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarlosDeli.DelisushioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Delisushio;
+			};
+			name = Debug;
+		};
+		A30E821C27C90B1C00749F03 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = CarlosDeli.DelisushioUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Delisushio;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A30E81EB27C90B1A00749F03 /* Build configuration list for PBXProject "Delisushio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E821227C90B1C00749F03 /* Debug */,
+				A30E821327C90B1C00749F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30E821427C90B1C00749F03 /* Build configuration list for PBXNativeTarget "Delisushio" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E821527C90B1C00749F03 /* Debug */,
+				A30E821627C90B1C00749F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30E821727C90B1C00749F03 /* Build configuration list for PBXNativeTarget "DelisushioTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E821827C90B1C00749F03 /* Debug */,
+				A30E821927C90B1C00749F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A30E821A27C90B1C00749F03 /* Build configuration list for PBXNativeTarget "DelisushioUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A30E821B27C90B1C00749F03 /* Debug */,
+				A30E821C27C90B1C00749F03 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A30E81E827C90B1A00749F03 /* Project object */;
+}
